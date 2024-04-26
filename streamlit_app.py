@@ -1,18 +1,15 @@
 # app.py
 import streamlit as st
 import cv2
+from PIL import Image
 import numpy as np
 import torch
 from pathlib import Path
-from detect import detect  # Function to perform object detection with YOLOv5
 
-# Function to perform object detection with YOLOv5 and return predictions
+# Function to perform object detection with YOLOv5
 def detect_objects(image, model):
-    # Convert image to numpy array
-    image_np = np.array(image)
-
     # Perform object detection using YOLOv5
-    results = detect(image_np, model)
+    results = model(image)
 
     # Return predictions
     return results.pandas().xyxy[0]
@@ -45,7 +42,7 @@ def main():
             break
 
         # Convert the frame to PIL Image
-        image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        image = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
 
         # Perform object detection and get predictions
         predictions = detect_objects(image, model)
