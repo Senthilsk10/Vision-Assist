@@ -1,6 +1,6 @@
 # Vision Assist - web app for visually challenged people
 
-### continue to app (* Please refer the user guide for best use * ) - [Click Here](https://senthilsk10.github.io/Vision-Assist/src/index.html)
+### continue to app (* Please refer the [user guide](https://docs.google.com/document/d/19ZjSXKzkM2zxilgtFTOCV8nwzfbrik4Z9lWW0cycq40/edit?usp=sharing) for best use * ) - [Click Here](https://senthilsk10.github.io/Vision-Assist/src/index.html)
 
 # Domain : Computer Vision
 
