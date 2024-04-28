@@ -1,7 +1,4 @@
-
-## Collabrated work of:
-1. Senthil Kumaran S - [profile](https://github.com/Senthilsk10/)
-2. Sharun Ashwanth K V - [profile](https://github.com/sharunashwanth/)
+# Vision Assist - web app for visually challenged people
 
 # Domain : Computer Vision
 
@@ -37,16 +34,17 @@ VisionAssist project aims to addresses the following two major needs for visuall
 Clone the project
 
 ```bash
-  git clone https://github.com/hack2techsustain/Sparks.git
+  git clone https://github.com/Senthilsk10/Vision-Assist.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Sparks
+  cd src
 ```
 
 Start the server
+(*Requires Python > 3.0
 
 ```bash
   python -m http.server
@@ -56,3 +54,7 @@ You can visit the website in http://127.0.0.1:8000/
 
 
 ### For more User Guide refer the following [link](https://docs.google.com/document/d/19ZjSXKzkM2zxilgtFTOCV8nwzfbrik4Z9lWW0cycq40/edit?usp=sharing)
+
+## Collabrated work of:
+1. Senthil Kumaran S - [profile](https://github.com/Senthilsk10/)
+2. Sharun Ashwanth K V - [profile](https://github.com/sharunashwanth/)
