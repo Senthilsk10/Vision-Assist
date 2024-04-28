@@ -44,7 +44,7 @@ Go to the project directory
 ```
 
 Start the server
-(*Requires Python > 3.0
+(*Requires Python > 3.0*)
 
 ```bash
   python -m http.server
